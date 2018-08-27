@@ -14,9 +14,10 @@ _Make sure you install them in your computer because this theme is customized fo
 
 ###Go To 
 
-Slack **>>** Preference **>>** Side Bar
+** Slack >> Preference >> Side Bar** 
 
-Just Past / Replace this color code 
+Just Past / Replace this color code
+
 #323232,#3b4048,#555a63,#ffffff,#292d33,#FFFFFF,#3dd983,#EB4D5C
 
 
