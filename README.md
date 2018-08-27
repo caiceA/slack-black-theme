@@ -1,7 +1,7 @@
 # Slack-in-Black
 ## The Black Theme you'll fall in love with 😍 Lastest Update with troll emoji :trollface:
 
-
+# Theme Preview
 <img width="1920" alt="screen shot 2018-08-27 at 19 44 05" src="https://user-images.githubusercontent.com/16766231/44675720-9c778c80-aa31-11e8-8ac3-40c6a12613ab.png">
 
 
