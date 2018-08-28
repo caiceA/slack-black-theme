@@ -37,7 +37,7 @@ Just **Copy and Paste** this color code as it is.
 ### Go to Application  and right click on Slack  > Show Package Content 
 **Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js** 
 
-Replace your CURRENT **ssb-interop.js** File
+**Replace your CURRENT** **ssb-interop.js** File
 
 ### With this ( download from below link or from Repository )
 
