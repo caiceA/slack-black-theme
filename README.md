@@ -46,6 +46,6 @@ http://foxshift.com/ssb-interop.js.zip
 
 ## Restart & ENJOY !!! 🙌🏻
 
-###❗️you can update your Slack anytime it woun't cause any problem 
+###❗️you can update your Slack anytime it won't cause any problem 
 
 
