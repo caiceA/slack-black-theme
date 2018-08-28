@@ -44,9 +44,8 @@ Replace your CURRENT **ssb-interop.js** File
 http://foxshift.com/ssb-interop.js.zip
 
 
-### you can update your Slack anytime it woun't cause any problem 
+## Restart & ENJOY !!! 🙌🏻
 
-## ENJOY !!! 🙌🏻
-
+###❗️you can update your Slack anytime it woun't cause any problem 
 
 
