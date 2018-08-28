@@ -1,4 +1,4 @@
-# Slack-in-Black
+# Slack-in-Black - Mac Only
 ## The Black Theme you'll fall in love with 😍 Lastest Update with troll emoji :trollface:
 
 # Theme Preview
@@ -33,3 +33,20 @@ Just **Copy and Paste** this color code as it is.
 
 
 ## Thrid & Finally 
+
+### Go to Application  and right click on Slack  > Show Package Content 
+**Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js** 
+
+Replace your CURRENT **ssb-interop.js** File
+
+### With this ( download from below link or from Repository )
+
+http://foxshift.com/ssb-interop.js.zip
+
+
+### you can update your Slack anytime it woun't cause any problem 
+
+## ENJOY !!! 🙌🏻
+
+
+
