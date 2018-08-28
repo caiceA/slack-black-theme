@@ -196,7 +196,7 @@ border: 2px solid #008952 !important;
 color:white !important;
 
     }
-
+    #primary_file_button:hover { border: 2px solid #006039 !important; background: #006039 !important; }
     #primary_file_button {
       position: absolute;
       bottom: 1.375rem;
@@ -356,7 +356,16 @@ border-bottom:1px solid #383838
 .c-search{
     background: #2c2c2e !important;
 }
+.p-search_filter__title:before {
+    border-bottom: 1px solid #5F5F5F !important;
 
+}
+.c-search__input_and_close {
+    border-bottom: 1px solid #5F5F5F !important;
+}
+p-search_filter__date:first-child {
+    border-bottom: 1px solid #5F5F5F !important;
+}
 
   `
 
