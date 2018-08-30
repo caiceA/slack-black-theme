@@ -1,4 +1,4 @@
-# Slack-in-Black - Mac Only
+# Slack Black Theme Night Mood - Mac Only
 ## The Black Theme you'll fall in love with 😍 Lastest Update with troll emoji :trollface:
 
 # Theme Preview
