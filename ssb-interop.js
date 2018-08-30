@@ -366,8 +366,43 @@ border-bottom:1px solid #383838
 p-search_filter__date:first-child {
     border-bottom: 1px solid #5F5F5F !important;
 }
+.p-search_filter__more_link {
+    color: #5fd5ee;
+    font-size: 13px;
+    margin-top: 4px;
+}
+.c-link--button:active, .c-link--button:focus, .c-link--button:hover {
+    color: #5fd5ee;
+    outline: none;
+    text-decoration: underline;}
+    .c-filter_input {
+        align-items: center;
+        background-color: #545454 ;
+      }
+  .p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display){
+    background-color: black !important;
+    border: 1px solid  #545454 !important;
+  }
+  .p-channel_insights__date_heading span {
+    position: relative;
+    z-index: 1;
+    padding: 0 .5rem;
+    background-color: #545454 ;
+    color: white;
+    font-size: 15px;
+}
+.p-channel_insights__date_heading::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color:  #545454;}
 
-  `
+
+      `
 
     // Insert a style tag into the wrapper view
     cssPromise.then(css => {
