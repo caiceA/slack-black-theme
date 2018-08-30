@@ -404,6 +404,10 @@ p-search_filter__date:first-child {
     height: 1px;
     background-color:  #545454;}
 
+    #client_body:not(.onboarding):not(.feature_global_nav_layout):before{
+        background:#222222;
+
+    }
 
       `
 
