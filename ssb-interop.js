@@ -75,8 +75,9 @@ document.addEventListener("DOMContentLoaded", function() {
   --text: white;
   }
 body{
-    @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i') !important;
+
     font-family: 'Nunito', sans-serif !important;
+    src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
     text-rendering: optimizeLegibility important;
     font-weight:600 !important;
 
@@ -408,7 +409,18 @@ p-search_filter__date:first-child {
         background:#222222;
 
     }
+    .p-channel_insights__message--truncate::before {
 
+        background: linear-gradient(180deg,transparent,#232323 90%);
+    }
+.c-button--outline {
+    background: #2C2F33;
+    color:white;
+    border:1px solid #6A6C6E;
+}
+.c-button--outline a{
+    color:white;
+}
       `
 
     // Insert a style tag into the wrapper view
