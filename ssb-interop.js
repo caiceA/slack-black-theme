@@ -123,7 +123,8 @@ body{
   font-family: 'Nunito', sans-serif !important;
   src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
   text-rendering: optimizeLegibility important;
-  font-weight:600 !important;
+  font-weight:500 !important;
+  word-spacing: -1px;
 }
 div.c-message.c-message--light.c-message--hover
 {
@@ -174,7 +175,7 @@ background-color: #222222 !important;
 color:white !important;
 }
 a{
-color:#5fd5ee!important;
+color:#36D4F6!important;
 }
 .comment .app_preview_link_slug, .comment .internal_member_link, .comment .internal_user_group_link, .comment .mention, .ql-editor .app_preview_link_slug, .ql-editor .internal_member_link, .ql-editor .internal_user_group_link, .ql-editor .mention, ts-message .app_preview_link_slug, ts-message .internal_member_link, ts-message .internal_user_group_link, ts-message .mention{
 background:#fff6d1 !important;
@@ -404,12 +405,12 @@ p-search_filter__date:first-child {
   border-bottom: 1px solid #5F5F5F !important;
 }
 .p-search_filter__more_link {
-  color: #5fd5ee;
+  color: #36D4F6;
   font-size: 13px;
   margin-top: 4px;
 }
 .c-link--button:active, .c-link--button:focus, .c-link--button:hover {
-  color: #5fd5ee;
+  color: #36D4F6;
   outline: none;
   text-decoration: underline;}
   .c-filter_input {
@@ -450,6 +451,10 @@ p-search_filter__date:first-child {
 }
 .c-button--outline a{
   color:white;
+}
+.c-message--light .c-message__sender .c-message__sender_link{
+    color:#B9EA80!important;
+    font-weight:600;
 }
     `
 
