@@ -459,6 +459,10 @@ p-search_filter__date:first-child {
     color:#9FE19D!important;
     font-weight:600;
 }
+.c-message__body {
+    margin: 4px 0 -4px; !important}
+
+
     `
 
     // Insert a style tag into the wrapper view
