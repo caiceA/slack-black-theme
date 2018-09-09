@@ -216,8 +216,8 @@ text-shadow: none;
 }
 .c-member_slug--link {
 background: none !important;
-color: #f8d189 !important;
-font-weight:bold;
+color: #F8D188!important;
+font-weight:600 !important;
 border : none !important;
 }
 .menu_content a{
@@ -227,7 +227,7 @@ color:white !important;
 color:white !important;
 }
 .c-member_slug--mention, .c-member_slug--mention:hover{
-background:#fff6d1 !important;
+background:#FFF6D1 !important;
 color:black !important;
 }
 #convo_tab .message_input, #convo_tab textarea#msg_text {
@@ -417,6 +417,9 @@ p-search_filter__date:first-child {
       align-items: center;
       background-color: #545454 ;
     }
+    .c-member_slug--link, .c-member_slug--mention{
+        padding:0!important;
+    }
 .p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display){
   background-color: black !important;
   border: 1px solid  #545454 !important;
@@ -453,7 +456,7 @@ p-search_filter__date:first-child {
   color:white;
 }
 .c-message--light .c-message__sender .c-message__sender_link{
-    color:#B9EA80!important;
+    color:#9FE19D!important;
     font-weight:600;
 }
     `
