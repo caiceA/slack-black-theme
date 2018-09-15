@@ -516,15 +516,23 @@ input.c-input_select__filter_input{
 #search_container .search_input{
     color:white;
     background:transparent !important;
+    border: 0px solid transparent !important;
 }
 .c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper *{
     color:white !important;
     background:transparent !important;
+    border: 0px solid transparent !important;
 }
+.texty_legacy.texty_single_line_input{
+    background:transparent !important;
+    border: 0px solid transparent !important;
+}
+
 .texty_legacy.texty_single_line_input.focus, .texty_legacy.texty_single_line_input:hover{
     border: 0px solid transparent !important;
     background:transparent !important;
 }
+
 
     `
 
