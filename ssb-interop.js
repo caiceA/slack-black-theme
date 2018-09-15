@@ -554,6 +554,15 @@ a:hover{
 .c-menu_item__button:hover,  .c-menu_item__button:hover{
     color:white !important;
 }
+.c-message_group__header:active, .c-message_group__header:hover{
+    text-decoration:none !important;
+}
+.c-search__input_box__clear{
+    color: #36D4F6 !important;
+}
+.c-search_modal .c-search__input_box__clear{
+    border-right: 1px solid #4B4B4B !important;
+}
 
 
     `
