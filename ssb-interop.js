@@ -217,7 +217,7 @@ text-shadow: none;
 .c-member_slug--link {
 background: none !important;
 color: #F8D188!important;
-font-weight:600 !important;
+font-weight:700 !important;
 border : none !important;
 }
 .menu_content a{
@@ -303,11 +303,11 @@ color:white !important;
       color white !important;
   }
   .c-search_autocomplete{
-      background:#b7bcbe!important;
+      background:#373737!important;
       color white !important;
   }
   .c-search_autocomplete footer{
-      background:#97a0a5!important;
+      background:#3B3B3B!important;
       color white !important;
   }
   .c-search_autocomplete__suggestion_text{
@@ -317,8 +317,8 @@ color:white !important;
       color white !important;
   }
   .c-search_autocomplete header{
-      background:#b7bcbe!important;
-      color:black !important;
+    background:#373737!important;
+      color:white !important;
   }
   .c-search_autocomplete footer .c-search_autocomplete__footer_navigation_help{
       color:white !important;
@@ -461,7 +461,70 @@ p-search_filter__date:first-child {
 }
 .c-message__body {
     margin: 4px 0 -4px; !important}
+.p-file_list a{
+    color:green !important;
+}
+.p-downloads_flexpane--list {
+    color:green !important;
 
+}
+.c-file__meta{
+    background:blue !important;
+}
+.p-file_details__name{
+    color:white !important;
+}
+.p-file_details__share_channel{
+    color: #36D4F6;
+}
+.p-file_details__share_divider hr{
+    border-color:#4B4B4B;
+}
+.p-flexpane_header{
+    border-bottom:1px solid #4B4B4B;
+}
+.p-file_details__header_back:hover{
+    color: #36D4F6;
+}
+.p-file_list__file.c-pillow_file_container--full_width:hover{
+    border-bottom:1px solid #4B4B4B;
+    border-color:#4B4B4B;
+}
+.p-file_list__filters{
+    border-bottom:1px solid #4B4B4B;
+}
+.p-file_list__filters{
+    padding-top:10px;
+}
+input.c-input_select__filter_input{
+    background:transparent !important;
+}
+.c-search_autocomplete__suggestion_item:hover{
+    background: #30B7E1;
+    color:white;
+}
+.texty_legacy.texty_single_line_input.focus, .texty_legacy.texty_single_line_input:hover{
+    border-color:transparent;
+}
+.c-search__input_box__input:focus{
+    outline:none;
+}
+#search_container .search_input.focus, #search_container .search_input:focus, #search_container .search_input:hover{
+    color:white !important;
+    background:transparent !important;
+}
+#search_container .search_input{
+    color:white;
+    background:transparent !important;
+}
+.c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper *{
+    color:white !important;
+    background:transparent !important;
+}
+.texty_legacy.texty_single_line_input.focus, .texty_legacy.texty_single_line_input:hover{
+    border: 0px solid transparent !important;
+    background:transparent !important;
+}
 
     `
 
