@@ -2,7 +2,8 @@
 ## The Black Theme you'll fall in love with 😍 Lastest Update with troll emoji :trollface:
 
 # Theme Preview
-<img width="1920" alt="screen shot 2018-08-27 at 19 44 05" src="https://user-images.githubusercontent.com/16766231/44675720-9c778c80-aa31-11e8-8ac3-40c6a12613ab.png">
+<img width="1920" alt="screen shot 2018-09-09 at 22 27 00" src="https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png">
+
 
 
 <img width="1916" alt="screen shot 2018-09-01 at 21 28 37" src="https://user-images.githubusercontent.com/16766231/44949270-7f2a3000-ae2e-11e8-8127-cd7c50d88c74.png">
