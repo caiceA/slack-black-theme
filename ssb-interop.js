@@ -500,7 +500,7 @@ input.c-input_select__filter_input{
     background:transparent !important;
 }
 .c-search_autocomplete__suggestion_item:hover{
-    background: #30B7E1;
+    background: #2D9EE0;
     color:white;
 }
 .texty_legacy.texty_single_line_input.focus, .texty_legacy.texty_single_line_input:hover{
@@ -531,6 +531,28 @@ input.c-input_select__filter_input{
 .texty_legacy.texty_single_line_input.focus, .texty_legacy.texty_single_line_input:hover{
     border: 0px solid transparent !important;
     background:transparent !important;
+}
+.c-link--button:active, .c-link--button:focus, .c-link--button:hover{
+    color: #36D4F6 !important;
+    border:none !important;
+}
+.c-message_group .c-message_group__header:focus .c-channel_name, .c-message_group .c-message_group__header:focus .c-channel_name__team_name, .c-message_group .c-message_group__header:focus .c-message_group__header_date, .c-message_group:hover .c-message_group__header .c-channel_name, .c-message_group:hover .c-message_group__header .c-channel_name__team_name, .c-message_group:hover .c-message_group__header .c-message_group__header_date{
+    color: #36D4F6 !important;
+    border:none !important;
+}
+.p-search_filter__date:first-child{
+    border-bottom:1px solid #4B4B4B;
+}
+
+a:hover{
+    border-bottom:none !important;
+    text-decoration:none !important;
+}
+.c-menu_item__button, .c-menu_item__button:link, .c-menu_item__button:visited{
+    color:#252525 !important;
+}
+.c-menu_item__button:hover,  .c-menu_item__button:hover{
+    color:white !important;
 }
 
 
