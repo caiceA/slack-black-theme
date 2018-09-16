@@ -611,6 +611,19 @@ max-width: 600px;
 #flex_contents .heading_text{
     color:white !important;
 }
+.c-link--button{
+    color: #36D4F6 !important;
+}
+.p-file_upload_dialog__section input.c-input_text:focus{
+    background:transparent !important;
+}
+.c-input_character_count::after{
+    background:transparent !important;
+}
+.c-message_attachment__author--distinct{
+    color:white !important;
+}
+
 a.file_download_link { color: white !important }
 
 a.file_download_link:hover { color: white !important }
