@@ -574,8 +574,54 @@ color:white !important;
 #msg_input{
     background:#424242!important;
 }
+.p-file_list__empty{
+    color:white !important;
+}
+.searchable_member_list_filter .faux_input{
+    color:white !important;
+}
+.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9908+0,db3009+100 */
+    background: #ff9908 !important; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff9908 0%, #db3009 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff9908 0%,#db3009 100%)!important;/* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff9908 0%,#db3009 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9908', endColorstr='#db3009',GradientType=0 )!important; /* IE6-9 */
+box-shadow:1px 3px 3px rgba(0,0,0,0.5) !important;
 
+}
+.c-file_container{
+background: #393939 !important;
+max-width: 600px;
+}
+.p-file_list__empty{
+    background #222222 !important;
+    height:100vh !important
 
+}
+.searchable_member_list_filter{
+    border-bottom:1px solid  #4B4B4B !important;
+}
+#client-ui #team_list_container .searchable_member_list_search{
+    border-bottom:1px solid  #4B4B4B !important;
+}
+.tab_container .star_item .message .star_jump.msg_right_link, .tab_container .star_item ts-message .star_jump.msg_right_link{
+    color:white !important;
+}
+#flex_contents .heading_text{
+    color:white !important;
+}
+a.file_download_link { color: white !important }
+
+a.file_download_link:hover { color: white !important }
+.slack_menu_download {  color: white !important }
+
+.slack_menu_download ts-icon {  color: white !important }
+.filetype_button:hover .file_download_label { background: #545454; color: #e6e6e6; }
+
+.filetype_button .file_title { color: #e6e6e6; }
+
+.filetype_button .file_download_label { background: #828282; border-top: 1px solid #545454; }
     `
 
     // Insert a style tag into the wrapper view
