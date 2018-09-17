@@ -47,8 +47,12 @@ Just **Copy and Paste** this color code as it is.
 http://foxshift.com/ssb-interop.js.zip
 
 
-## Restart & ENJOY !!! 🙌🏻
+#### If you need slack default font
+https://foxshift.com/slack-lato-font/ssb-interop.js 
 
-### you can update your Slack anytime it won't cause any problem 🦁
 
+
+# Restart & ENJOY !!! 🙌🏻
+
+## you can update your Slack anytime it won't cause any problem 🦁
 
