@@ -23,7 +23,7 @@ https://www.fontsquirrel.com/fonts/lato
 
 **Replace your CURRENT** **ssb-interop.js** File
 
-### With this ( download from below link or from Repository )
+### With this 
 
 https://foxshift.com/slack-lato-font/ssb-interop.js.zip
 
