@@ -10,32 +10,13 @@
 
 
 ## First of all
-Downlad this  **Nunito Font Family from my repository** 
 
-**or from this website blow**
-
-https://www.fontsquirrel.com/fonts/nunito
-
-_Make sure you install them in your computer because this theme is customized for this font family_ 
-
-
-## Second Step 
-
-### Go To 
-
-**Slack >> Preference >> Side Bar** 
-
-Just **Copy and Paste** this color code as it is.
-
-## #323232,#3b4048,#555a63,#ffffff,#292d33,#FFFFFF,#3dd983,#EB4D5C
-
-<img width="730" alt="screen shot 2018-08-27 at 19 25 15" src="https://user-images.githubusercontent.com/16766231/44675315-71406d80-aa30-11e8-8f18-353e925d1d56.png">
+**Download and INSTALL this font family**
+https://www.fontsquirrel.com/fonts/lato 
 
 
 
-
-
-## Thrid & Finally 
+## Second Step
 
 ### Go to Application  and right click on Slack  > Show Package Content 
 **Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js** 
@@ -44,16 +25,7 @@ Just **Copy and Paste** this color code as it is.
 
 ### With this ( download from below link or from Repository )
 
-http://foxshift.com/ssb-interop.js.zip
-
-```
-If you need slack default fonts 
-Download fonts first 
-https://www.fontsquirrel.com/fonts/lato
-
-Than replace this file 
 https://foxshift.com/slack-lato-font/ssb-interop.js.zip
-```
 
 
 # Restart & ENJOY !!! 🙌🏻
