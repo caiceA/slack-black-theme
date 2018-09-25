@@ -16,7 +16,7 @@ https://www.fontsquirrel.com/fonts/lato
 
 ## Second Step
 
-### Go to Application  and right click on Slack  > Show Package Content
+Go to Application  and right click on Slack  > Show Package Content
 Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js 
 
 **Replace your CURRENT** **ssb-interop.js** File
