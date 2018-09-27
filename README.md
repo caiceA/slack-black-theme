@@ -10,6 +10,10 @@
 ## First of all
 
 **Download and INSTALL this font family**
+https://www.fontsquirrel.com/fonts/nunito 
+
+OR 
+
 https://www.fontsquirrel.com/fonts/lato 
 
 
