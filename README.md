@@ -10,14 +10,14 @@ resolved many cosmetic issues, download latest zip file from below
 
 
 
-## First of all
+## First 
 
 **Download and INSTALL this font family**
 https://www.fontsquirrel.com/fonts/lato 
 
 
 
-## Second Step
+## Second 
 
 Go to Application  and right click on Slack  > Show Package Content
 Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js 
