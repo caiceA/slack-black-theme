@@ -34,4 +34,4 @@ https://foxshift.com/slack-lato-font/ssb-interop.js.zip
 ## you can update your Slack anytime it won't cause any problem 🦁
 
 
-PS this is newer and my customization of [original theme](https://github.com/widget-/slack-black-theme) 
+_PS this is newer and my customization of [original theme](https://github.com/widget-/slack-black-theme)_
