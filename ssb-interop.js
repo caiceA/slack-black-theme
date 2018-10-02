@@ -107,6 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let webviews = document.querySelectorAll(".TeamView webview");
     // Fetch our CSS in parallel ahead of time
     const cssPath = 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css';
+    const localCssPath = 'sib.css';
     let cssPromise = fetch(cssPath).then(response => response.text());
 
     let customCustomCSS = `
@@ -116,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
 --text: white;
 }
 body {
-    font-family: 'lato', sans-serif !important;
+    font-family: 'nunito', sans-serif !important;
     /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
     text-rendering: optimizeLegibility important;
     font-weight: 500 !important;
@@ -133,6 +134,7 @@ div.c-message.c-message--light.c-message--hover {
     color: white !important;
     font-size: 15px !important;
 }
+
 span.c-message__body,
 a.c-message__sender_link,
 span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
@@ -1001,12 +1003,37 @@ a.file_download_link:hover {
         background-color: rgb(255, 110, 39) !important;
         color: white !important;
     }
-    c-date_picker_calendar__date--is_selected {
+.c-date_picker_calendar__date--is_selected {
         background-color: #0576b9 !important;
         color: #ffffff;}
-        .p-block_kit_date_picker_calendar_wrapper .c-date_picker_calendar__date--disabled, .p-block_kit_date_picker_calendar_wrapper .c-mini_calendar__month_button:disabled {
+.p-block_kit_date_picker_calendar_wrapper .c-date_picker_calendar__date--disabled, .p-block_kit_date_picker_calendar_wrapper .c-mini_calendar__month_button:disabled {
             background: #ffffff;
-        }
+}
+
+#team_tab #member_preview_scroller .feature_custom_status_expiry.member_details .member_name {
+color: white !important;
+}
+#member_preview_scroller a:not(.member_name):not(.current_status_preset_option):not(.member_details_manage_link):not(.current_status_presets_edit_link), .team_list_item a:not(.member_name):not(.current_status_preset_option):not(.member_details_manage_link):not(.current_status_presets_edit_link){
+color: white !important;
+}
+#team_tab #member_preview_scroller .feature_custom_status_expiry.member_details .member_action_bar .c-button:not(:first-child){
+color: white !important;
+}
+ .c-button--outline:active{
+    background: #e67a26 !important;
+}
+.c-button--outline:active {
+box-shadow: inset 0 0 0 1px #ff5232 !important;
+}
+.c-button--outline:hover {
+box-shadow: none !important;
+background: green !important;
+}
+
+
+
+
+
 
 
 
