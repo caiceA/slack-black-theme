@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
 --text: white;
 }
 body {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'nunito', sans-serif !important;
     /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
     text-rendering: optimizeLegibility important;
     font-weight: 500 !important;
@@ -137,8 +137,6 @@ a.c-message__sender_link,
 span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
 div.p-message_pane__foreword__description span {
     color: white;
-    !important;
-    font-family: 'Lato', sans-serif !important;
     font-size: 15px;
     letter-spacing: 0.3px !important;
 }
@@ -897,16 +895,28 @@ ts-message .internal_member_link:hover {
 input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type='url']:focus, input[type=tel]:focus, input[type=color]:focus, input[type=search]:focus{
     box-shadow: none !important;
 }
-`
-
-    function loadCSS(filename) {
-        var file = document.createElement("link");
-        file.setAttribute("rel", "stylesheet");
-        file.setAttribute("type", "text/css");
-        file.setAttribute("href", filename);
-        document.head.appendChild(file);
+.p-app_space_profile__info{
+    background:#222;
+}
+.supports_custom_scrollbar:not(.slim_scrollbar) #app_space_scroller_div, .supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div, .supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div{
+    border-right:0px !important;
+}
+.c-message__editor__input_container {
+    border-radius: 4px;}
+    .c-message__editor__input--legacy.focus {
+        border-color: transparent;
+        background: #585858;
+        color: white;
+        border-radius: 3px;
     }
-    loadCSS("https://foxshift.com/sib.css");
+    .c-menu_item__header, .c-menu_item__header{
+        color:white !important;
+    }
+    #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser .im_browser_row.highlighted{
+        background:black !important; 
+    }
+
+`
 
     // Insert a style tag into the wrapper view
     cssPromise.then(css => {
