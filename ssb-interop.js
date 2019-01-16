@@ -885,6 +885,12 @@ ts-message .internal_member_link:hover {
 }
 .c-message_list__day_divider__label__pill {
     background: #222 !important;
+    top: 13px;
+    color: white;
+}
+.c-message_list__day_divider__line {
+    border-top-color: #363636;
+    top: 13px;
 }
 #client-ui #team_list .team_list_item, #member_preview_scroller .team_list_item{
     border-bottom: 1px solid #545454 !important;
@@ -915,7 +921,17 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser .im_browser_row.highlighted{
         background:black !important; 
     }
-
+    .c-calendar_view_header__stepper_btn{background: orange !important}
+    .c-react_search_input .ts_icon_times_small:active, .c-react_search_input .ts_icon_times_small:focus, .c-react_search_input .ts_icon_times_small:hover{
+        color:white !important;
+    }
+    .unread_group .unread_group_header .unread_group_mark, .unread_group .unread_group_header .unread_keyboard{
+        background: #339252 !important;
+        color: white !important;
+    }
+    .c-dialog__footer .c-button {
+        background-color: #2ead5c;
+        color: #ffffff;
 `
 
     // Insert a style tag into the wrapper view
