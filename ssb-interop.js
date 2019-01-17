@@ -128,7 +128,6 @@ div.c-message.c-message--light.c-message--hover {
 }
 .c-message__sender a {
     font-weight: 600;
-    text-transform: capitalize;
     color: white !important;
     font-size: 15px !important;
 }
@@ -515,7 +514,6 @@ p-search_filter__date:first-child {
 }
 .light_theme ts-message .message_content .message_sender {
     color:  #a4d677 !important;
-    text-transform: capitalize;
     font-weight: 700 !important;
 }
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted) .p-channel_sidebar__name {
