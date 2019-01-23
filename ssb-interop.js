@@ -128,6 +128,7 @@ div.c-message.c-message--light.c-message--hover {
 }
 .c-message__sender a {
     font-weight: 600;
+    text-transform: capitalize;
     color: white !important;
     font-size: 15px !important;
 }
@@ -181,11 +182,11 @@ div.c-message__content:hover {
     background: #333539!important;
 }
 .c-dialog__header {
-    background: #333539!important;
+    background: #222222!important;
     color: white;
 }
 .c-dialog__footer {
-    background: #333539!important;
+    background: #222222!important;
 }
 div.c-message:hover {
     background-color: #222222 !important;
@@ -514,6 +515,7 @@ p-search_filter__date:first-child {
 }
 .light_theme ts-message .message_content .message_sender {
     color:  #a4d677 !important;
+    text-transform: capitalize;
     font-weight: 700 !important;
 }
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted) .p-channel_sidebar__name {
@@ -927,9 +929,47 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
         background: #339252 !important;
         color: white !important;
     }
+.p-threads_footer__input .p-message_input_field.focus {
+    border-color: #616061;
+    background: #545454 !important; color: white !important;}
+
+.p-threads_footer__input--legacy .p-message_input_plus {
+    border: 1px solid transparent !important;
+    border-radius: 4px 0 0 4px;
+    background: #008952 !important;}
+    .ql-editor [aria-label] {
+color:white !important;
+}
+.p-threads_footer__input--legacy .p-message_input_field {
+    min-height: 24px;
+    padding-left: 42px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    border-color: #868686;
+    background: #545454;
+    color: white;}
+
+.p-threads_footer__input .p-message_input_plus .p-message_input_plus_icon {
+    transform: scale(1.11);
+    color: white;
+}
+#reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea{
+    colo:white !important;
+    opacity:1 !important;
+}
+.c-timestamp__label{
+    color: #ffb088 !important;
+}
+.c-message__sender{
+color:#a4d677 !important
+}
     .c-dialog__footer .c-button {
         background-color: #2ead5c;
-        color: #ffffff;
+        color: #ffffff;}
+.btn_outline.hover, .btn_outline:focus, .btn_outline:hover {
+            background: #51a255 !important;
+            color: #ffffff !important;
+        }
 `
 
     // Insert a style tag into the wrapper view
