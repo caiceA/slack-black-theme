@@ -318,10 +318,13 @@ ts-message .mention {
     color: white !important;
 }
 .c-input_select_options_list_container:not(.c-input_select_options_list_container--always-open) {
-    background: #292d32!important;
+    background:#151515!important;
     color: white !important;
     border: none !important;
     border: 0 !important;
+}
+.p-search_filter .p-file_list__file_type_select, .p-search_filter__select .c-input_select{
+    border:transparent;
 }
 .c-input_select_options_list__option {
     color: white !important;
@@ -330,17 +333,14 @@ ts-message .mention {
     color: white !important;
 }
 .c-search__input_and_close {
-    background: #292d32!important;
+    background: #2b2c2e!important;
     color white !important;
 }
 .c-search__input_box {
-    background: #292d32!important;
+    background: #2b2c2e!important;
     color white !important;
 }
-.c-search__input_and_close {
-    background: #292d32!important;
-    color white !important;
-}
+
 .c-search_autocomplete {
     background: #232323!important;
     color white !important;
@@ -929,9 +929,12 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
         background: #339252 !important;
         color: white !important;
     }
+    .p-threads_footer__input {
+        background:black;
+    }
 .p-threads_footer__input .p-message_input_field.focus {
     border-color: #616061;
-    background: #545454 !important; color: white !important;}
+    background: black !important; color: white !important;}
 
 .p-threads_footer__input--legacy .p-message_input_plus {
     border: 1px solid transparent !important;
@@ -946,7 +949,7 @@ color:white !important;
     padding-bottom: 6px;
     border-radius: 4px;
     border-color: #868686;
-    background: #545454;
+    background: black;
     color: white;}
 
 .p-threads_footer__input .p-message_input_plus .p-message_input_plus_icon {
@@ -970,8 +973,63 @@ color:#a4d677 !important
             background: #51a255 !important;
             color: #ffffff !important;
         }
+        a.c-message__sender_link{
+            color: #a4d677 !important;
+        }
+        .ql-editor[aria-label]{
+            color: white !important;
+        }
+        .c-menu_item__icon {
+    
+            color: rgba(162, 162, 162, 0.96);
+        }
+        .thrills_purple {
+            color: #ff3636!important;}
+            .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected {
+                color: #ffffff;}
+                .feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected{
+                    color: #ffffff; 
+                }
+                .menu ul li a:not(.inline_menu_link) {
+                    color: #e6e6e6 !important;
+                }
+                .ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover{
+                    box-shadow: none !important;
+                }
+                .ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover{
+                    color: #e6e6e6 !important;
+                }
+                .c-message__reply_bar:hover, .c-message__reply_bar--focus{
+                    background-color: #484848;
+                }
+                .c-message__reply_bar--focus .c-message__reply_bar_view_thread, .c-message__reply_bar:hover .c-message__reply_bar_view_thread{
+                    background-color: #484848 !important;
+                }
+                .c-dialog__cancel{
+                    background: transparent !important;
+                }
+                .c-dialog__cancel:hover{
+                    background: transparent !important;
+                }
+                .c-search_modal .popover > div, .c-search_modal .c-search__input_box, .c-search_modal:not(.c-search_modal--primarysearch) .popover > div, .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box{
+                    background: #2b2c2e !important;
+                }
+                .c-card_carousel__text_section p{
+                    color:white;
+                }
+                .c-card_carousel__page_count{
+                    color:black; 
+                }
+                .c-file__slide--meta{
+                    background-color: #393939 !important;   
+                }
 `
 
+
+// $("div").each(function(){
+
+// 	$this.css("color","white");
+// });
     // Insert a style tag into the wrapper view
     cssPromise.then(css => {
         let s = document.createElement('style');
