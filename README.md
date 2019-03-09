@@ -26,7 +26,8 @@ Replace your CURRENT **ssb-interop.js** File
 
 #### With this
 
-http://neckcode/slack/ssb-interop.js.zip
+http://neckcode.com/slack/ssb-interop.js.zip
+
 OR
 [View file on GitHub](https://github.com/caiceA/slack-black-theme/blob/master/ssb-interop.js)
 
