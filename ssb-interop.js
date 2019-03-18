@@ -987,6 +987,16 @@ color:white !important;
 .c-message__sender{
 color:#a4d677 !important
 }
+.c-pillow_file__email__meta td{
+    color: white !important
+} 
+.c-pillow_file__email__sender__address{
+    color: #6ed2f2 !important
+} 
+.c-pillow_file__email--collapsed{
+    color: white !important
+} 
+
     .c-dialog__footer .c-button {
         background-color: #2ead5c;
         color: #ffffff;}
