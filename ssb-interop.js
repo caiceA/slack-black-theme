@@ -121,7 +121,6 @@ body {
     font-family: 'Lato', sans-serif !important;
     /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
     text-rendering: optimizeLegibility important;
-    font-weight: 500 !important;
     word-spacing: -1px;
 }
 div.c-message.c-message--light.c-message--hover {
@@ -251,7 +250,7 @@ ts-message .mention {
 .c-member_slug--link {
     background: none !important;
     color: #ffce8e!important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     border: none !important;
    }
 .menu_content a {
@@ -730,6 +729,7 @@ code {
 }
 #flex_contents .heading_text {
     color: white !important;
+    font-weight:bold;
 }
 .c-link--button {
     color: #36D4F6 !important;
@@ -943,16 +943,16 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     }
     .p-threads_footer__input .p-message_input_field {
         border-color: transparent !important;
-        background: #adadad !important; color: black !important;}
+        background: #4d4d4d  !important; color: white !important;}
 .p-threads_footer__input .p-message_input_field.focus {
     border-color: transparent !important;
-    background: #adadad !important; color: black !important;}
+    background: #4d4d4d  !important; color: white !important;}
     .p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover){
         border-color: transparent;
         color:white !important;
     }
     .p-threads_footer__input--legacy .p-message_input_field .ql-editor{
-        color:black !important;
+        color:white !important;
     }
     .p-threads_footer__input--legacy .p-message_input_file_button{
         border: transparent !important;
@@ -1070,6 +1070,70 @@ color:#a4d677 !important
                         background-color: #008952 !important;
                         color: white;
                     }
+                    .sli_briefing{
+                        background: #222222;
+                    }
+                    .sli_briefing_preview__title{
+                        color:white;
+                    }
+                    .sli_briefing_preview{background-color: #363636; border:1px solid #585858;}
+                    .sli_briefing_preview_container::after, .sli_briefing_preview_container::before{background:#222222; border:1px solid #737373;}
+                    .sli_briefing_preview__description_text{color:white;}
+                    .sli_briefing_preview__description_text b {
+                        color: #2dffd1;    font-weight: 600;}
+                        .sli_briefing__message ts-message:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display){
+                            background-color: #313131;
+                            border: 1px solid #000;
+                        }
+                        .sli_briefing_view__footer_title {
+                            color: #ffffff;
+                        }
+                        .sli_briefing__justification {
+                            color: #bfbfbf;}
+                            .sli_briefing__header {
+                                border-bottom: 1px solid #000;
+                                background-color: #3b3b3b;}
+                                .sli_briefing__title {
+                                    color: #ffffff;
+                                }
+                                .sli_briefing__feedback_controls{
+                                    color: #969696;
+                                }
+                                .channel_title .channel_name{
+                                    font-weight:bold !important;
+                                }
+                                .p-threads_flexpane__header .p-flexpane_header__children{
+                                    font-weight:700;
+                                }
+                                .p-threads_view__default_background--first{
+                                    background:#323232 !important;
+                                }
+                                .p-threads_view__footer, .p-threads_view_root {
+                                    border: 1px solid #000;}
+                                    .p-threads_view_reply {
+                                        border: 1px solid #000;}
+                                        .p-threads_view__default_background {
+                                            background: #323232;}
+                                            .p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+                                                height: 32px;
+                                                line-height: 32px;
+                                                display: flex;
+                                                align-items: center;
+                                                background: #535353;
+                                                padding-left: 12px;
+                                                border-left: 1px solid #000;
+                                                border-right: 1px solid #000;}
+
+                                        .c-channel_name__text--inline{
+                                        color: #36D4F6!important;
+                                    }
+                                    .p-threads_view__divider_label {
+                                        background: #323232; color:white;}
+                                        .p-threads_view__divider_line {
+                                        
+                                            border-top: 1px solid #323232;
+                                    
+
 `
 
 
