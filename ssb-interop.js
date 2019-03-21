@@ -1124,14 +1124,19 @@ color:#a4d677 !important
                                                 border-left: 1px solid #000;
                                                 border-right: 1px solid #000;}
 
-                                        .c-channel_name__text--inline{
+                                      .c-channel_name__text--inline{
                                         color: #36D4F6!important;
                                     }
                                     .p-threads_view__divider_label {
                                         background: #323232; color:white;}
                                         .p-threads_view__divider_line {
                                         
-                                            border-top: 1px solid #323232;
+                                            border-top: 1px solid #323232;}
+                                            .p-threads_view_header__participant_list{
+                                                color:white !important;
+                                            }
+                                            .p-threads_view_reply--new_reply {
+                                                background: #535353;}
                                     
 
 `
