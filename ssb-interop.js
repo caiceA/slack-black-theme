@@ -1137,6 +1137,10 @@ color:#a4d677 !important
                                             }
                                             .p-threads_view_reply--new_reply {
                                                 background: #535353;}
+                                                .c-mrkdwn__highlight{
+                                                    background: transparent !important;
+                                                }
+
                                     
 
 `
