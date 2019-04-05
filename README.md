@@ -3,6 +3,7 @@
 ```
 28 September 2018 Update:
 - Resolved many cosmetic issues, download latest zip file from below
+- View Release Versions
 ```
 # Theme Preview
 <img width="1920" alt="screen shot 2018-09-09 at 22 27 00" src="https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png">
