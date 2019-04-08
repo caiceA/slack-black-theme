@@ -1,4 +1,4 @@
-# Slack Black Theme Night Mood - Mac Only
+# Slack Black Theme Night Mood 
 ## The Black Theme you'll fall in love with 😍
 ```
 28 September 2018 Update:
