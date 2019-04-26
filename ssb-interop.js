@@ -1105,6 +1105,9 @@ color:#a4d677 !important
                                 .p-threads_flexpane__header .p-flexpane_header__children{
                                     font-weight:700;
                                 }
+                                .p-threads_flexpane__header button[aria-label="Close Right Sidebar"] {
+                                    color: #949494;
+                                }
                                 .p-threads_view__default_background--first{
                                     background:#323232 !important;
                                 }
