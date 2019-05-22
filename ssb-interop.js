@@ -122,13 +122,13 @@ body {
     /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
     text-rendering: optimizeLegibility important;
     word-spacing: -1px;
+    -webkit-font-smoothing: auto;
 }
 div.c-message.c-message--light.c-message--hover {
     color: grey !important;
 }
 .c-message__sender a {
     font-weight: 600;
-    text-transform: capitalize;
     color: white !important;
     font-size: 15px !important;
 }
@@ -1124,7 +1124,7 @@ color:#a4d677 !important
                                                 border-left: 1px solid #000;
                                                 border-right: 1px solid #000;}
 
-                                      .c-channel_name__text--inline{
+                                        .c-channel_name__text--inline{
                                         color: #36D4F6!important;
                                     }
                                     .p-threads_view__divider_label {
@@ -1140,7 +1140,38 @@ color:#a4d677 !important
                                                 .c-mrkdwn__highlight{
                                                     background: transparent !important;
                                                 }
+                                                .c-message_kit__background--labels {
+                                                    background: #323232;}
+                                                    .c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link{
+                                                        color: rgba(255, 255, 255, 0.7);
+                                                    }
+                                                    .c-icon_button--light.c-button-unstyled:hover, .c-icon_button--light:hover, .c-icon_button--light:link:hover {
+                                                        color: #ffffff;
+                                                    }
+                                                    .c-fullscreen_modal__header {
+                                                        background: #222222;}
+                                                        .p-prefs_modal .c-fullscreen_modal__body {
+                                                            overflow-y: scroll;
+                                                            background: #181818;}
+                                                            .p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+                                                                background: #383737;
+                                                                border-color: #000000;}
+                                                                .p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+                                                                    background: #383737;
+                                                                    border-color: #000000;}
+                                                                    p{
+                                                                        color:white;
+                                                                    }
+                                                                    textarea.c-input_textarea.c-input_textarea--with_hint {
+                                                                        color: white;}
+                                                                        .c-sidebar_menu__list li .c-link--button{
+                                                                            color:white !important;
 
+                                                                        }
+                                                                        .p-prefs_modal__radiogroup .p-prefs_modal__radio_decorator {
+                                                                            background: #2b2b2b;}
+
+                                                    
                                     
 
 `
