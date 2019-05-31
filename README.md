@@ -42,6 +42,3 @@ Updating Slack will not cause this theme to reset! 🦁
 
 
 
----
-
-_PS this is my own customization of [original theme](https://github.com/widget-/slack-black-theme)_
