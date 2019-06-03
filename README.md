@@ -38,7 +38,7 @@ Restart Slack & ENJOY !!! 🙌🏻
 
 ## Other
 
-Updating Slack will not cause this theme to reset! 🦁
+ Feel free to reinstall after Slack Updates 🦁
 
 
 
