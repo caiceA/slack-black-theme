@@ -36,9 +36,11 @@ OR
 
 Restart Slack & ENJOY !!! 🙌🏻
 
-## Other
+## Additional
+You can change color of side bar hover menus and very left side bar with multi-teams section from your preference > Side Bar 
 
- Feel free to reinstall after Slack Updates 🦁
+## Others
+Feel free to reinstall after Slack Updates 🦁
 
 
 
