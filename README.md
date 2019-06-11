@@ -11,14 +11,9 @@
 
 
 
-## First:
-
-**Download and INSTALL this font family**
-https://www.fontsquirrel.com/fonts/lato
 
 
-
-## Second:
+## First
 
 Go to Application  and right click on Slack  > Show Package Content
 Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js
@@ -32,7 +27,7 @@ http://neckcode.com/slack/ssb-interop.js.zip
 OR
 [View file on GitHub](https://github.com/caiceA/slack-black-theme/blob/master/ssb-interop.js)
 
-## Third
+## Second
 
 Restart Slack & ENJOY !!! 🙌🏻
 
