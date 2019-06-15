@@ -7,7 +7,7 @@
 ```
 # Theme Preview
 <img width="1920" alt="screen shot 2018-09-09 at 22 27 00" src="https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png">
-<img width="1820" alt="Screenshot 2019-06-15 at 12 15 42" src="https://user-images.githubusercontent.com/16766231/59550135-a38f6d00-8f67-11e9-94ba-4f983d22d1d0.png">
+<img width="1815" alt="Screenshot 2019-06-15 at 12 15 42" src="https://user-images.githubusercontent.com/16766231/59550160-04b74080-8f68-11e9-8f5f-a7c9b8f3fd9a.png">
 
 
 
