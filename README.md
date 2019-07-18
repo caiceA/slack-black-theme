@@ -5,7 +5,8 @@
 
 # Theme Preview
 <img width="1920" alt="screen shot 2018-09-09 at 22 27 00" src="https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png">
-<img width="1815" alt="Screenshot 2019-06-15 at 12 15 42" src="https://user-images.githubusercontent.com/16766231/59550160-04b74080-8f68-11e9-8f5f-a7c9b8f3fd9a.png">
+<img width="1918" alt="Screenshot 2019-07-18 at 13 38 37" src="https://user-images.githubusercontent.com/16766231/61454517-68ff6280-a961-11e9-9a2b-aa929fb649c5.png">
+
 
 
 ## Slack 4 installation
