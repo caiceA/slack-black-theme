@@ -1,4 +1,4 @@
-# Slack (4) Black Theme Night Mood - Mac
+# Slack 4 Black Theme Night Mood - Mac
 ## The Black Theme you'll fall in love with 😍
 
 
