@@ -19,3 +19,4 @@ Open termainal and simply drag and drop this .sh file to your terminal after ins
 Make sure you have Npm / Node already installed in your computer.
 It requires you have nodejs and the asar package installed globally with npm i -g asar
 ```
+### Design by Caice Ali
