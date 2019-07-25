@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   cssPromise.then((css) => {
     let s = document.createElement('style');
     s.type = 'text/css';
-    s.innerHTML = css + customCustomCSS;
+    s.innerHTML = css;
     document.head.appendChild(s);
   });
 });"
