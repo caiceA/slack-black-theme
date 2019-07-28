@@ -20,16 +20,21 @@ Open termainal and simply drag and drop this .sh file to your terminal after ins
 Make sure you have Npm / Node already installed in your computer.
 It requires you have nodejs and the asar package installed globally with npm i -g asar
 ```
+
 # Windows Install
+
 1. Please have [NodeJS](https://nodejs.org/en/download/) Installed.
 
 2. They're fonts used in this theme and the script will download and install them if they are not in your fronts folder.
 
-3. You must have Powershell 5.0, aka Windows 10 to get full compatibility. If you don't have Windows 10 install the latest [powershell](https://github.com/PowerShell/PowerShell#get-powershell) for windows. 
+3. You must have Powershell 5.0, aka Windows 10 to get full compatibility. If you don't have Windows 10 install the latest [powershell](https://github.com/PowerShell/PowerShell#get-powershell) for windows.
 
-4. When running this script always run powershell in **Adminstrator Mode**. Hit your windows start button then type `powershell`, right click powershell, then `Run as administrator`. 
+4. When running this script always run powershell in **Adminstrator Mode**. Hit your windows start button then type `powershell`, right click powershell, then `Run as administrator`.
 
-**Note:** These instructions are error handled in the script.
+**Note:**
+
+- These instructions are error handled in the script.
+- Please restart/close powershell if you have installed NodeJS during this install. This will refresh your environment variables to which NodeJS/Windows uses for commands. If you have [Chocolatey](https://chocolatey.org/) installed just type `refreshenv` while in powershell and run the install command below without closing/restarting powershell.
 
 ## Install
 

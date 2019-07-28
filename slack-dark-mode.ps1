@@ -11,8 +11,9 @@ if ($psversion -ge $psversionge){
     Write-Host "This script will work correctly due to having powershell v5 or greater." -ForegroundColor Green
 } else {
     Write-Host "This script may not work correctly, please install Powershell v5 or greater. You have version" $psversion -ForegroundColor Yellow
-    Write-Host "Download the lastest verison of Powershell @ https://github.com/PowerShell/PowerShell#get-powershell"
+    Write-Warning "Download the lastest verison of Powershell @ https://github.com/PowerShell/PowerShell#get-powershell"
     Start-Process https://github.com/PowerShell/PowerShell#get-powershell
+    throw "Please close Powershell, install v5+ of Powershel from link above & rerun script once installed"
 }
 
 if (-not (Test-Path -path $env:LOCALAPPDATA\slack)) {
@@ -27,9 +28,9 @@ if (Test-Path -Path $env:ProgramFiles\nodejs){
     Write-Warning "Would you like to download NodeJS (Default is y)" 
     $Readhost = Read-Host " Enter ( y / n ) " 
     Switch ($ReadHost) { 
-        Y {Write-Host "Yes, Downloading NodeJS." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please rerun script once installed."} 
+        Y {Write-Host "Yes, Downloading NodeJS. Please close powershell & rerun once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please rerun script once installed."} 
         N {Write-Host "No, Skip Downloading"; throw "Theme will not be installed"} 
-        Default {Write-Host "Yes, Downloading NodeJS. Please rerun script once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please rerun script once installed."} 
+        Default {Write-Host "Yes, Downloading NodeJS. Please close powershell & rerun once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please rerun script once installed."} 
     }
 }
 
