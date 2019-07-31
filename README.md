@@ -8,15 +8,15 @@
 <img width="1918" alt="Screenshot 2019-07-18 at 13 38 37" src="https://user-images.githubusercontent.com/16766231/61454517-68ff6280-a961-11e9-9a2b-aa929fb649c5.png">
 
 
-## Must Use This Font
-**Make sure you Download and Install** this Font first in your computer [Muli Font](https://www.fontsquirrel.com/fonts/download/muli)
+## Requirements
+* Slack 4
+* [Muli Font](https://www.fontsquirrel.com/fonts/download/muli)
+  * Please download and install this Font on your computer.
+* npm / node
+  * It requires you have nodejs and the asar package installed globally, you can install asar with npm i -g asar
 
-## Slack 4 installation
-Download .sh zip from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip)
+## Installation
+1. Download from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip) and unpack zip
+2. Open terminal and drag and drop .sh file to the terminal. After installation, restart Slack and enjoy.
 
-Open termainal and simply drag and drop this .sh file to your terminal after installation restart your slack and enjoy.
-```
-Make sure you have Npm / Node already installed in your computer.
-It requires you have nodejs and the asar package installed globally with npm i -g asar
-```
 ### Design by Caice Ali
