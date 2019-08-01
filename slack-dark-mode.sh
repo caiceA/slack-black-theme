@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });"
 
-case "$OSTYPE" in
+case "${OSTYPE}" in
   linux*)   SLACK_RESOURCES_DIR="/usr/lib/slack/resources" ;;
   darwin*)  SLACK_RESOURCES_DIR="/Applications/Slack.app/Contents/Resources" ;;
-  *) echo "Unsupported OS"; exit 1 ;;
+  *) echo "Unsupported OS: ${OSTYPE}"; exit 1 ;;
 esac
 
 SLACK_FILE_PATH="${SLACK_RESOURCES_DIR}/app.asar.unpacked/dist/ssb-interop.bundle.js"
@@ -31,4 +31,4 @@ sudo npx asar extract ${SLACK_RESOURCES_DIR}/app.asar ${SLACK_RESOURCES_DIR}/app
 sudo tee -a "${SLACK_FILE_PATH}" > /dev/null <<< "$JS"
 sudo npx asar pack ${SLACK_RESOURCES_DIR}/app.asar.unpacked ${SLACK_RESOURCES_DIR}/app.asar
 
-echo "Restart slack to let the changes take effect"
+echo "Restart slack to let the changes take effect."
