@@ -9,11 +9,16 @@
 
 # Mac/Linux Install
 
-## Must Use This Font
-**Make sure you Download and Install** this Font first in your computer [Muli Font](https://www.fontsquirrel.com/fonts/download/muli)
+## Requirements
+* Slack 4
+* [Muli Font](https://www.fontsquirrel.com/fonts/download/muli)
+  * Please download and install this Font on your computer.
+* npm / node
+  * It requires you have nodejs and the asar package installed globally, you can install asar with npm i -g asar
 
-## Slack 4 installation
-Download .sh zip from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip)
+## Installation
+1. Download from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip) and unpack zip
+2. Open terminal and drag and drop .sh file to the terminal. After installation, restart Slack and enjoy.
 
 Open termainal and simply drag and drop this .sh file to your terminal after installation restart your slack and enjoy.
 ```
@@ -72,3 +77,4 @@ Please enter this: `npm config set cache C:\tmp\nodejs\npm-cache --global` -- [O
 - [jpmckearin](https://github.com/jpmckearin)
 - [Column01](https://github.com/Column01)
 - [benjamhooper](https://github.com/benjamhooper/)
+### Design by Caice Ali
