@@ -16,7 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });"
 
-SLACK_RESOURCES_DIR="/Applications/Slack.app/Contents/Resources"
+case "$OSTYPE" in
+  linux*)   SLACK_RESOURCES_DIR="/usr/lib/slack/resources" ;;
+  darwin*)  SLACK_RESOURCES_DIR="/Applications/Slack.app/Contents/Resources" ;;
+  *) echo "Unsupported OS"; exit 1 ;;
+esac
+
 SLACK_FILE_PATH="${SLACK_RESOURCES_DIR}/app.asar.unpacked/dist/ssb-interop.bundle.js"
 
 echo "Adding Dark Theme Code to Slack... "
@@ -25,3 +30,5 @@ echo "This script requires sudo privileges." && echo "You'll need to provide you
 sudo npx asar extract ${SLACK_RESOURCES_DIR}/app.asar ${SLACK_RESOURCES_DIR}/app.asar.unpacked
 sudo tee -a "${SLACK_FILE_PATH}" > /dev/null <<< "$JS"
 sudo npx asar pack ${SLACK_RESOURCES_DIR}/app.asar.unpacked ${SLACK_RESOURCES_DIR}/app.asar
+
+echo "Restart slack to let the changes take effect"
