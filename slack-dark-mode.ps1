@@ -21,16 +21,18 @@ if (-not (Test-Path -path $env:LOCALAPPDATA\slack)) {
     throw "Slack install folder not found || Slack needs to be updated || Slack not Installed, Please install @ https://slack.com/downloads/windows"
 }
 
-if (Test-Path -Path $env:ProgramFiles\nodejs){
-    Write-Host "NodeJS is installed, continuing install." -ForegroundColor Green
-} else{
+try {
+    Write-Host "Checking if Nodejs is installed" -ForegroundColor Green
+    $npxversion = npx -v
+    Write-Host "Nodejs is installed with npm/npx verison:" $npxversion -ForegroundColor Green
+} catch {
     Write-Warning "NodeJS is required for this script to work"
-    Write-Warning "Would you like to download NodeJS (Default is y)" 
-    $Readhost = Read-Host " Enter ( y / n ) " 
+    Write-Warning "Would you like to download NodeJS (Default is y | n will exit)" 
+    $Readhost = Read-Host " Enter ( y / n ): " 
     Switch ($ReadHost) { 
-        Y {Write-Host "Yes, Downloading NodeJS. Please close powershell & rerun once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please rerun script once installed."} 
+        Y {Write-Host "Yes, Downloading NodeJS. Please close powershell & rerun once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please close powershell & rerun once installed."} 
         N {Write-Host "No, Skip Downloading"; throw "Theme will not be installed"} 
-        Default {Write-Host "Yes, Downloading NodeJS. Please close powershell & rerun once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please rerun script once installed."} 
+        Default {Write-Host "Yes, Downloading NodeJS. Please close powershell & rerun once installed." -ForegroundColor Green; Start-Process https://nodejs.org/en/download/; throw "Please close powershell & rerun once installed."} 
     }
 }
 
