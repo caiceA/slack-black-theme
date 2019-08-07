@@ -19,4 +19,4 @@
 1. Download from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip) and unpack zip
 2. Open terminal and drag and drop .sh file to the terminal. After installation, restart Slack and enjoy.
 
-### Design by Caice Ali
+### Design by Ali Q
