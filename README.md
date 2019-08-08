@@ -77,4 +77,5 @@ Please enter this: `npm config set cache C:\tmp\nodejs\npm-cache --global` -- [O
 - [jpmckearin](https://github.com/jpmckearin)
 - [Column01](https://github.com/Column01)
 - [benjamhooper](https://github.com/benjamhooper/)
-### Design by Caice Ali
+
+### Design by Ali Q
