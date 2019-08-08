@@ -81,4 +81,4 @@ Please enter this: `npm config set cache C:\tmp\nodejs\npm-cache --global` -- [O
 - [Column01](https://github.com/Column01)
 - [benjamhooper](https://github.com/benjamhooper/)
 
-### Design by Ali Q
+### Design by Ali Caice
