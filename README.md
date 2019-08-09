@@ -22,8 +22,6 @@
 ## Installation
 1. Download from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip) and unpack zip
 2. Open terminal and drag and drop .sh file to the terminal. After installation, restart Slack and enjoy.
-
-Open termainal and simply drag and drop this .sh file to your terminal after installation restart your slack and enjoy.
 ```
 Make sure you have Npm / Node already installed in your computer.
 It requires you have nodejs and the asar package installed globally with npm i -g asar
