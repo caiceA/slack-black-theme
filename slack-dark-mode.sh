@@ -4,7 +4,7 @@ JS="
 // First make sure the wrapper app is loaded
 document.addEventListener('DOMContentLoaded', function() {
   // Fetch our CSS in parallel ahead of time
-  const cssPath = 'https://raw.githubusercontent.com/caiceA/slack-black-theme/master/slack-dark-mode.css';
+  const cssPath = 'https://raw.githubusercontent.com/caiceA/slack-raw/master/slack-4';
   let cssPromise = fetch(cssPath).then((response) => response.text());
 
   // Insert a style tag into the wrapper view
