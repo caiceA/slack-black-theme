@@ -97,7 +97,7 @@ if (Test-Path -path $env:LOCALAPPDATA\slack) {
         Set-Location "app.asar.unpackedcustom\dist"
         Add-Content .\ssb-interop.bundle.js "`ndocument.addEventListener('DOMContentLoaded', function() {
             // Fetch our CSS in parallel ahead of time
-            const cssPath = 'https://raw.githubusercontent.com/caiceA/slack-black-theme/master/slack-dark-mode.css';
+            const cssPath = 'https://raw.githubusercontent.com/caiceA/slack-raw/master/slack-4';
             let cssPromise = fetch(cssPath).then((response) => response.text());
                // Insert a style tag into the wrapper view
             cssPromise.then((css) => {
@@ -117,7 +117,7 @@ if (Test-Path -path $env:LOCALAPPDATA\slack) {
         Set-Location "$env:LOCALAPPDATA\slack\app-$a\resources\app.asar.unpacked\src\static"
         Add-Content .\ssb-interop.js "`ndocument.addEventListener('DOMContentLoaded', function() {
             // Fetch our CSS in parallel ahead of time
-            const cssPath = 'https://raw.githubusercontent.com/caiceA/slack-black-theme/master/slack-dark-mode.css';
+            const cssPath = 'https://raw.githubusercontent.com/caiceA/slack-raw/master/slack-4';
             let cssPromise = fetch(cssPath).then((response) => response.text());
                // Insert a style tag into the wrapper view
             cssPromise.then((css) => {
