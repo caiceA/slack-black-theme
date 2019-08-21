@@ -71,8 +71,7 @@ Please enter this: `npm config set cache C:\tmp\nodejs\npm-cache --global` -- [O
 
 [caiceA](https://github.com/caiceA) - Maintainer & Designer
 
-- [jmlevin78](https://github.com/jmlevin78)
-- [triplepoint](https://github.com/triplepoint)
+
 - [pseeth](https://github.com/pseeth)
 - [jpmckearin](https://github.com/jpmckearin)
 - [benjamhooper](https://github.com/benjamhooper/)
