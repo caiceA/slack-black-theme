@@ -87,10 +87,9 @@ if (Test-Path -path $env:LOCALAPPDATA\slack) {
     Copy-Item $env:LOCALAPPDATA\slack -Destination $env:LOCALAPPDATA\slack-backup-$date -Recurse
     Write-Host "Back up can be found here:" $env:LOCALAPPDATA\slack-backup-$date -ForegroundColor Green
 
-    $a = Read-Host "Enter the verison of Slack you're on (Open Slack -> Help -> About Slack, example: 4.0.0) "
-    $b = "4.0.0"
+    $a = Read-Host "Enter the verison of Slack you're on (Open Slack -> Help -> About Slack, example: 4.0.0-beta2) "
     
-    if ([version]('{0}.{1}.{2}' -f $a.split('.')) -ge [version]('{0}.{1}.{2}' -f $b.split('.'))) {
+    if ($a.Substring(0,1) -eq "4") {
         Write-Host "Installing Slack Theme to version" $a -ForegroundColor Green
         Set-Location "$env:LOCALAPPDATA\slack\app-$a\resources"
         npx asar extract app.asar app.asar.unpackedcustom
