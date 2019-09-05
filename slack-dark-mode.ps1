@@ -84,7 +84,10 @@ Switch ($ReadHost) {
 if (Test-Path -path $env:LOCALAPPDATA\slack) {
     Write-Host "Making a Backup of Slack Directory" -ForegroundColor Green
     Write-Host "Copying Files Please be Patient" -ForegroundColor Green
-    Copy-Item $env:LOCALAPPDATA\slack -Destination $env:LOCALAPPDATA\slack-backup-$date -Recurse
+    
+    if (-not (Test-Path $env:LOCALAPPDATA\slack-backup-$date)) {
+        Copy-Item $env:LOCALAPPDATA\slack -Destination $env:LOCALAPPDATA\slack-backup-$date -Recurse
+    }
     Write-Host "Back up can be found here:" $env:LOCALAPPDATA\slack-backup-$date -ForegroundColor Green
 
     $a = Read-Host "Enter the verison of Slack you're on (Open Slack -> Help -> About Slack, example: 4.0.0-beta2) "
