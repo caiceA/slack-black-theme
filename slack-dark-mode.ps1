@@ -3,7 +3,7 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     throw "Please rerun script once in Administrator Mode."
 }
 
-$date = Get-Date -Format "MMddyyyy"
+$date = Get-Date -Format "yyyyMMdd"
 $psversion = $PSVersionTable.PSVersion.Major
 $psversionge = 5;
 
