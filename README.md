@@ -31,9 +31,9 @@ It requires you have nodejs and the asar package installed globally with npm i -
 
 1. Please have [NodeJS](https://nodejs.org/en/download/) Installed.
 
-2. They're fonts used in this theme and the script will download and install them if they are not in your fronts folder.
+2. There are fonts used in this theme and the script will download and install them if they are not in your fonts folder.
 
-3. You must have Powershell 5.0, aka Windows 10 to get full compatibility. If you don't have Windows 10 install the latest [powershell](https://github.com/PowerShell/PowerShell#get-powershell) for windows.
+3. You must have Powershell 5.0, aka Windows 10 to get full compatibility. If you don't have Windows 10 install the latest [powershell](https://github.com/PowerShell/PowerShell#get-powershell) for Windows.
 
 4. When running this script always run powershell in **Adminstrator Mode**. Hit your windows start button then type `powershell`, right click powershell, then `Run as administrator`.
 

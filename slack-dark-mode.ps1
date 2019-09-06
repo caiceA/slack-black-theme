@@ -3,17 +3,15 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     throw "Please rerun script once in Administrator Mode."
 }
 
-$date = Get-Date -Format "MMddyyyy"
+$date = Get-Date -Format "yyyyMMdd HHmmss"
 $psversion = $PSVersionTable.PSVersion.Major
 $psversionge = 5;
 
-if ($psversion -ge $psversionge){
-    Write-Host "This script will work correctly due to having powershell v5 or greater." -ForegroundColor Green
-} else {
+if ($psversion -lt $psversionge){
     Write-Host "This script may not work correctly, please install Powershell v5 or greater. You have version" $psversion -ForegroundColor Yellow
-    Write-Warning "Download the lastest verison of Powershell @ https://github.com/PowerShell/PowerShell#get-powershell"
+    Write-Warning "Download the latest version of Powershell @ https://github.com/PowerShell/PowerShell#get-powershell"
     Start-Process https://github.com/PowerShell/PowerShell#get-powershell
-    throw "Please close Powershell, install v5+ of Powershel from link above & rerun script once installed"
+    throw "Please close Powershell, install v5+ of Powershell from link above & rerun script once installed"
 }
 
 if (-not (Test-Path -path $env:LOCALAPPDATA\slack)) {
@@ -38,7 +36,8 @@ try {
 
 Write-Warning "Installing Necessary Fonts for Theme, continuing install."
 
-if (-not (Test-Path "C:\Windows\Fonts\Muli.ttf")){
+if ((-not (Test-Path "C:\Windows\Fonts\Muli.ttf")) `
+    -and (-not (Test-Path -path $env:LOCALAPPDATA\Microsoft\Windows\Fonts\Muli.ttf))) {
     $SourceDir   = "C:\Windows\Temp\fontdl"
     $Source      = "C:\Windows\Temp\fontdl\*"
     $Destination = (New-Object -ComObject Shell.Application).Namespace(0x14)
@@ -77,20 +76,20 @@ Write-Warning "Do you know your Slack version? (Example: 4.0.0)"
 $Readhost = Read-Host " Enter ( y / n ) " 
 Switch ($ReadHost) {
     Y {Write-Host "Continuing install.." -ForegroundColor Green} 
-    N {Write-Host "No, Will not install theme. Find your verison by opening slack, Click the Triple Bar -> Help -> About Slack"; throw "Theme will not be installed"} 
+    N {Write-Host "No, Will not install theme. Find your version by opening slack, Click the Triple Bar -> Help -> About Slack"; throw "Theme will not be installed"} 
     Default {Write-Host "Continuing install.." -ForegroundColor Green} 
 }
 
 if (Test-Path -path $env:LOCALAPPDATA\slack) {
     Write-Host "Making a Backup of Slack Directory" -ForegroundColor Green
     Write-Host "Copying Files Please be Patient" -ForegroundColor Green
+    
     Copy-Item $env:LOCALAPPDATA\slack -Destination $env:LOCALAPPDATA\slack-backup-$date -Recurse
     Write-Host "Back up can be found here:" $env:LOCALAPPDATA\slack-backup-$date -ForegroundColor Green
-
-    $a = Read-Host "Enter the verison of Slack you're on (Open Slack -> Help -> About Slack, example: 4.0.0) "
-    $b = "4.0.0"
     
-    if ([version]('{0}.{1}.{2}' -f $a.split('.')) -ge [version]('{0}.{1}.{2}' -f $b.split('.'))) {
+    $a = Read-Host "Enter the version of Slack you're on (Open Slack -> Help -> About Slack, examples: 4.0.0 or 4.1.0-beta3) "
+    
+    if ($a.Substring(0,1) -eq "4") {
         Write-Host "Installing Slack Theme to version" $a -ForegroundColor Green
         Set-Location "$env:LOCALAPPDATA\slack\app-$a\resources"
         npx asar extract app.asar app.asar.unpackedcustom
