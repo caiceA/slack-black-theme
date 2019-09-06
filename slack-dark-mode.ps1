@@ -36,7 +36,7 @@ try {
 
 Write-Warning "Installing Necessary Fonts for Theme, continuing install."
 
-if ((-not (Test-Path "C:\Windows\Fonts\Muli.ttf"))
+if ((-not (Test-Path "C:\Windows\Fonts\Muli.ttf")) `
     -and (-not (Test-Path -path $env:LOCALAPPDATA\Microsoft\Windows\Fonts\Muli.ttf))){
     $SourceDir   = "C:\Windows\Temp\fontdl"
     $Source      = "C:\Windows\Temp\fontdl\*"
