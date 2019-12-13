@@ -22,7 +22,7 @@ case "${OSTYPE}" in
   *) echo "Unsupported OS: ${OSTYPE}"; exit 1 ;;
 esac
 
-SLACK_FILE_PATH="${SLACK_RESOURCES_DIR}/app.asar.unpacked/dist/ssb-interop.bundle.js"
+SLACK_FILE_PATH="${SLACK_RESOURCES_DIR}/app.asar.unpacked/dist/main-preload-entry-point.bundle.js"
 
 echo "Adding Dark Theme Code to Slack... "
 echo "This script requires sudo privileges." && echo "You'll need to provide your password."
