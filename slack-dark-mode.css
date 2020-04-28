@@ -2570,4 +2570,5 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     color: rgba(255, 255, 255, 0.7);}
     .p-member_profile_card, .p-member_profile_field__label, p-member_profile_field__value {
     box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 4px 12px 0 rgba(0,0,0,.08);
+    color: white !important;
     background: #333;}
